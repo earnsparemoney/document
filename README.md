@@ -37,21 +37,21 @@ document about earn spare money
     
     7.5 Usecase design（用例设计）
 
-8、[生产规范与指南](./instruction.md)
+8. [生产规范与指南](./instruction.md)
 
-​	8.1 XX 代码规范
+    8.1 XX 代码规范
 
-​	8.2 REST API 设计规范
+    8.2 REST API 设计规范
 
-​	8.3 架构设计、详细设计（BCE方法）到应用程序框架映射指南
+    8.3 架构设计、详细设计（BCE方法）到应用程序框架映射指南
 
-​	8.4 部署说明
+    8.4 部署说明
 
-9、[成品展示](./show.md)
+9. [成品展示](./show.md)
 
-​	9.1 XX短视频
+    9.1 XX短视频
 
-​	9.2 XX短视频
+    9.2 XX短视频
 
 
 
