@@ -24,5 +24,17 @@
     ![](pics/API/API7.png)
     ![](pics/API/API8.png)
 
-#### 
+#### Tasks
+- 数据结构
+
+    ![](pics/API/Model3.png)
+    ![](pics/API/Model4.png)
+- API设计
+
+    ![](pics/API/API9.png)
+    ![](pics/API/API10.png)
+    ![](pics/API/API11.png)
+    ![](pics/API/API12.png)
+    ![](pics/API/API13.png)
+    ![](pics/API/API14.png)
 
