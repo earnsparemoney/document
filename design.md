@@ -45,6 +45,9 @@
     ![](pics/API/Model6.png)
 - API设计
 
+    ![](pics/API/API15.png)
+    ![](pics/API/API16.png)
+    ![](pics/API/API17.png)
 
 
 **Error**
