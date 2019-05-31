@@ -3,6 +3,9 @@
 ---
 #### 2. Database design
 ```sql
+--
+-- Table structure for table `users`
+--
 CREATE TABLE `users` (
   `account` varchar(255) NOT NULL,
   `name` varchar(255) DEFAULT NULL,
@@ -15,6 +18,9 @@ CREATE TABLE `users` (
 ```
 
 ```sql
+--
+-- Table structure for table `tasks`
+--
 CREATE TABLE `tasks` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(255) DEFAULT NULL,
@@ -29,6 +35,9 @@ CREATE TABLE `tasks` (
 ```
 
 ```sql
+--
+-- Table structure for table `TaskundoUsers`
+--
 CREATE TABLE `TaskundoUsers` (
   `task_id` bigint(20) unsigned NOT NULL,
   `user_account` varchar(255) NOT NULL,
@@ -37,6 +46,9 @@ CREATE TABLE `TaskundoUsers` (
 ```
 
 ```sql
+--
+-- Table structure for table `TaskdoneUsers`
+--
 CREATE TABLE `TaskdoneUsers` (
   `task_id` bigint(20) unsigned NOT NULL,
   `user_account` varchar(255) NOT NULL,
@@ -45,6 +57,9 @@ CREATE TABLE `TaskdoneUsers` (
 ```
 
 ```sql
+--
+-- Table structure for table `TaskUsers`
+--
 CREATE TABLE `TaskUsers` (
   `task_id` bigint(20) unsigned NOT NULL,
   `user_account` varchar(255) NOT NULL,

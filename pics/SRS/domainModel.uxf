@@ -5,40 +5,43 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>240</x>
-      <y>90</y>
+      <x>560</x>
+      <y>450</y>
       <w>130</w>
-      <h>70</h>
+      <h>100</h>
     </coordinates>
     <panel_attributes>user
 valign=center
 -
 name
 account
-password</panel_attributes>
+password
+email
+phone</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>240</x>
-      <y>250</y>
+      <y>450</y>
       <w>130</w>
-      <h>80</h>
+      <h>100</h>
     </coordinates>
     <panel_attributes>task
 valign=center
 -
+name
 description
 adward
-</panel_attributes>
+/ddl</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>240</x>
-      <y>500</y>
+      <y>660</y>
       <w>130</w>
       <h>80</h>
     </coordinates>
@@ -50,63 +53,107 @@ password</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>480</y>
+      <w>220</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=*
+m2=1
+&lt; receive </panel_attributes>
+    <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>540</y>
+      <w>90</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=*
+publish ^</panel_attributes>
+    <additional_attributes>10.0;120.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>320</y>
+      <w>70</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=0..n
+m2=1
+join ^</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>550</x>
-      <y>50</y>
+      <x>560</x>
+      <y>250</y>
       <w>130</w>
-      <h>90</h>
+      <h>80</h>
     </coordinates>
-    <panel_attributes>group
+    <panel_attributes>interest group
 valign=center
 -
 name
 owner
-
-
-</panel_attributes>
+/createdAt</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>570</x>
+      <y>640</y>
+      <w>130</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>questionnaire
+valign=center
+-
+title
+description
+award
+body
+/doneUsers</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>150</y>
-      <w>70</w>
+      <x>620</x>
+      <y>540</y>
+      <w>80</w>
       <h>120</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=*
-m2=*
-receive</panel_attributes>
+m2=1
+fill out v</panel_attributes>
     <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>320</y>
-      <w>70</w>
-      <h>200</h>
+      <x>360</x>
+      <y>680</y>
+      <w>230</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
 m2=*
-publish</panel_attributes>
-    <additional_attributes>10.0;180.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>360</x>
-      <y>100</y>
-      <w>210</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-
-m1=*
-m2=*
-join </panel_attributes>
-    <additional_attributes>190.0;20.0;10.0;20.0</additional_attributes>
+publish &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;210.0;20.0</additional_attributes>
   </element>
 </diagram>
