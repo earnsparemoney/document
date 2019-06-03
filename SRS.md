@@ -4,10 +4,7 @@
    - 1.1 挣闲钱系统用例模型
     ![](pics/SRS/usecase.png)
    - 1.2 挣闲钱业务过程模型（多泳道图）
-    - 问卷中心的业务过程
-        ![](pics/SRS/swimlane1.png)
-    - 任务中心的业务过程
-        ![](pics/SRS/swimlane2.png)
+    ![](pics/SRS/swimlane2.png)
 2. 用例，或特征，或业务流程描述
    - 2.1 01-b01-奶牛发布任务业务活动图
    - 2.2 01-c01-奶牛发布任务用例描述
@@ -20,7 +17,9 @@
     ![](pics/SRS/domainModel.png)
 4. 状态建模
    - 4.1 学生对象状态模型
+    ![](pics/SRS/stateModelStudent.png)
    - 4.2 奶牛对象状态模型
+    ![](pics/SRS/stateModelCow.png)
 5. 功能建模
    - 5.1 奶牛发布任务场景系统顺序图
 6. 补充需求（非功能需求）
