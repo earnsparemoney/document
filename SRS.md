@@ -4,7 +4,10 @@
    - 1.1 挣闲钱系统用例模型
     ![](pics/SRS/usecase.png)
    - 1.2 挣闲钱业务过程模型（多泳道图）
-    ![](pics/SRS/swimlane2.png)
+        - 场景1：奶牛发布问卷给学生用户填写并给予薪酬
+        ![](pics/SRS/swimlane1.png)
+        - 场景1：奶牛发布任务给学生用户完成并给予薪酬
+        ![](pics/SRS/swimlane2.png)
 2. 用例，或特征，或业务流程描述
    - 2.1 01-b01-奶牛发布任务业务活动图
    - 2.2 01-c01-奶牛发布任务用例描述
@@ -21,7 +24,16 @@
    - 4.2 奶牛对象状态模型
     ![](pics/SRS/stateModelCow.png)
 5. 功能建模
-   - 5.1 奶牛发布任务场景系统顺序图
+   - 5.1 学生接受任务场景系统顺序图
+   ![](pics/SRS/sequenceDiagramStu1.png)
+   - 5.1 学生填写问卷场景系统顺序图
+   ![](pics/SRS/sequenceDiagramStu2.png)
+   - 5.1 学生加入兴趣组场景系统顺序图
+   ![](pics/SRS/sequenceDiagramStu3.png)
+   - 5.2 奶牛发布任务场景系统顺序图
+   ![](pics/SRS/sequenceDiagramCow1.png)
+   - 5.2 奶牛发布问卷场景系统顺序图
+   ![](pics/SRS/sequenceDiagramCow2.png)
 6. 补充需求（非功能需求）
    - 6.1 XX界面设计需求
    - 6.2 人脸识别技术要求
