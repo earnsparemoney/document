@@ -304,7 +304,7 @@
     <id>Relation</id>
     <coordinates>
       <x>730</x>
-      <y>920</y>
+      <y>980</y>
       <w>370</w>
       <h>50</h>
     </coordinates>
@@ -317,7 +317,7 @@
     <id>Relation</id>
     <coordinates>
       <x>730</x>
-      <y>850</y>
+      <y>920</y>
       <w>370</w>
       <h>40</h>
     </coordinates>
@@ -423,18 +423,18 @@
     <id>Relation</id>
     <coordinates>
       <x>1070</x>
-      <y>790</y>
+      <y>740</y>
       <w>30</w>
-      <h>240</h>
+      <h>330</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;220.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;310.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
       <x>1030</x>
-      <y>770</y>
+      <y>720</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -445,7 +445,7 @@
     <id>UMLGeneric</id>
     <coordinates>
       <x>690</x>
-      <y>770</y>
+      <y>720</y>
       <w>100</w>
       <h>30</h>
     </coordinates>
@@ -456,12 +456,12 @@
     <id>Relation</id>
     <coordinates>
       <x>730</x>
-      <y>790</y>
+      <y>740</y>
       <w>30</w>
-      <h>230</h>
+      <h>320</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;210.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;300.0</additional_attributes>
   </element>
   <element>
     <id>UMLGeneric</id>
@@ -529,6 +529,31 @@
     </coordinates>
     <panel_attributes>lt=&lt;.
 到账薪酬
+</panel_attributes>
+    <additional_attributes>10.0;20.0;350.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>790</y>
+      <w>370</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-
+查看兴趣组</panel_attributes>
+    <additional_attributes>350.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>850</y>
+      <w>370</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+兴趣组列表
 </panel_attributes>
     <additional_attributes>10.0;20.0;350.0;20.0</additional_attributes>
   </element>

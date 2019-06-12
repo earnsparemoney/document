@@ -15,7 +15,7 @@ document about earn spare money
 
    6.1 Usecase Diagram and UML Activity Diagram（用例图，业务过程/多泳道图）
    
-   6.2 Use Cases（用例+活动图）
+   6.2 Use Cases（用例文本与活动图）
    
    6.3 Domian Models（领域模型）
    
