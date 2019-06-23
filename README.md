@@ -25,7 +25,6 @@ document about earn spare money
    
    6.6 Supplementary Requirements（补充需求）
    
-
 7. [Design（设计说明书）](./design.md)
 
     7.1 UI design（界面设计）
@@ -36,30 +35,40 @@ document about earn spare money
     
     7.4 Architecture design（架构设计）
     
-    7.5 Usecase design（用例设计
-  
+    7.5 Usecase design（用例设计）
+
 8、[生产规范与指南](./instruction.md)
 
-    8.1 XX 代码规范
-    
-    8.2 REST API 设计规范
-    
-    8.3 架构设计、详细设计（BCE方法）到应用程序框架映射指南
-    
-    8.4 部署说明
-    
+​	8.1 XX 代码规范
+
+​	8.2 REST API 设计规范
+
+​	8.3 架构设计、详细设计（BCE方法）到应用程序框架映射指南
+
+​	8.4 部署说明
+
 9、[成品展示](./show.md)
 
-    9.1 XX短视频
-    
-    9.2 XX短视频
+​	9.1 XX短视频
+
+​	9.2 XX短视频
+
+
 
 X1 meeting-records
-inception meeting (yy/mm/dd)
+
+- inception meeting (yy/mm/dd)
+
 X2 KANBAN
+
 X3 auditing-records
+
 X4 Tech/Work Report
-学号-title
+
+- 学号-title
+
 X5 Final Report
-学号-title
-小组分工与贡献率说明
+
+- 学号-title
+
+- 小组分工与贡献率说明
