@@ -25,17 +25,21 @@ document about earn spare money
    
    6.6 Supplementary Requirements（补充需求）
    
-7. [Design（设计说明书）](./design.md)
+7. [Design（设计说明文档）](./SD.md)
 
     7.1 UI design（界面设计）
     
     7.2 Database design（数据库设计）
     
     7.3 Interface API design（接口 API 设计）
+
+    7.4 技术选型理由
     
-    7.4 Architecture design（架构设计）
-    
-    7.5 Usecase design（用例设计）
+    7.5 Architecture design（架构设计）
+
+    7.6 Module dividing（模块划分）
+
+    7.7 软件设计技术
 
 8. [生产规范与指南](./instruction.md)
 

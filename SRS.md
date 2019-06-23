@@ -2,13 +2,16 @@
 
 ### 1.用例图，业务过程/多泳道图
 - 1.1 挣闲钱系统用例图
-![](pics/SRS/usecase.png)
+
+    ![](pics/SRS/usecase.png)
 
 - 1.2 挣闲钱业务过程模型（多泳道图）
     - 场景1：奶牛发布问卷给学生用户填写并给予薪酬
-    ![](pics/SRS/swimlane1.png)
+
+        ![](pics/SRS/swimlane1.png)
     - 场景1：奶牛发布任务给学生用户完成并给予薪酬
-    ![](pics/SRS/swimlane2.png)
+
+        ![](pics/SRS/swimlane2.png)
 
 ---
 ### 2.用例文本与活动图
@@ -20,8 +23,6 @@
 - **学生填写问卷**：学生在问卷中心查看可填写的问卷，选取感兴趣的问卷进行填写，并在填写之后获得相应的薪酬。
 - **奶牛发布任务**：奶牛在任务中心新建任务，填写任务要求与薪酬，然后将任务发布到任务中心。
 - **学生接受任务**：学生在任务中心查看可以接受的任务列表，选择接受其中感兴趣的任务，然后完成任务并获得相应的薪酬。
-- **学生创建兴趣组**：学生创建属于自己的兴趣组。
-- **学生加入兴趣组**：学生打开兴趣组页面查看已有的兴趣组列表，选择其中的任意感兴趣的兴趣组加入。
 - **学生薪酬提现**：学生将自己赚取的薪酬通过微信平台提现到绑定好的微信账号之中。
 
 **扩展用例**：
@@ -30,49 +31,59 @@
 - **按发布时间排序问卷**：学生用户在问卷中心对所有的可填写问卷按发布时间排序，
 - **按发布时间排序任务**：学生用户在问卷中心对所有的可填写问卷按发布时间排序，
 
-下面是`主成功场景`——**用户（学生，奶牛）注册**、**奶牛发布问卷**、**奶牛发布任务**、**学生填写问卷**以及**学生完成任务**的活动图。
+下面是`主成功场景`——**用户（学生，奶牛）注册**、**奶牛发布问卷**、**奶牛发布任务**、**学生填写问卷**以及**学生完成任务**的活动图，更多活动图见pics/Activity文件夹。
 - **用户（学生，奶牛）注册**
-![](pics/SRS/registerActivity.png)
+
+    ![](pics/Activity/registerActivity.png)
 - **奶牛发布问卷**
 
+    ![](pics/Activity/cowActivityQue.png)
 - **奶牛发布任务**
 
+    ![](pics/Activity/cowActivityTask.png)
 - **学生填写问卷**
-
+    
+    ![](pics/Activity/stuActivityQue.png)
 - **学生完成任务**
+
+    ![](pics/Activity/stuActivityTask.png)
 
 ---
 ### 3.领域模型
 - 3.1 挣闲钱系统用例进行领域模型
-![](pics/SRS/domainModel.png)
+
+    ![](pics/SRS/domainModel.png)
 
 ---
 ### 4.状态模型
 - 4.1 学生对象状态模型
-![](pics/SRS/stateModelStudent.png)
+
+    ![](pics/SRS/stateModelStudent.png)
 
 - 4.2 奶牛对象状态模型
-![](pics/SRS/stateModelCow.png)
+
+    ![](pics/SRS/stateModelCow.png)
 
 ---
 ### 5.功能模型
 - 5.1 学生接受任务场景系统顺序图
-![](pics/SRS/sequenceDiagramStu1.png)
+
+    ![](pics/SRS/sequenceDiagramStu1.png)
 
 - 5.2 学生填写问卷场景系统顺序图
-![](pics/SRS/sequenceDiagramStu2.png)
 
-- 5.3 学生加入兴趣组场景系统顺序图
-![](pics/SRS/sequenceDiagramStu3.png)
+    ![](pics/SRS/sequenceDiagramStu2.png)
 
-- 5.4 奶牛发布任务场景系统顺序图
-![](pics/SRS/sequenceDiagramCow1.png)
+- 5.3 奶牛发布任务场景系统顺序图
 
-- 5.5 奶牛发布问卷场景系统顺序图
-![](pics/SRS/sequenceDiagramCow2.png)
+    ![](pics/SRS/sequenceDiagramCow1.png)
+
+- 5.4 奶牛发布问卷场景系统顺序图
+
+    ![](pics/SRS/sequenceDiagramCow2.png)
 
 ---
 ### 6.补充需求（非功能需求）
-- 6.1 XX界面设计需求
 
-- 6.2 人脸识别技术要求
+#### 可支持性——多终端适配
+奶牛用户可以在Android或iOS等多种操作系统的设备上打开挣闲钱系统，或者在PC端上使用，让奶牛用户在不同终端上都可以成功地在挣闲钱上发布问卷与任务；学生用户也可以在PC端上或者移动端上打开挣闲钱接收任务或者填写问卷。而且根据设备的不同动态地调整UI，适配PC端与移动端。

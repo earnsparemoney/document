@@ -87,7 +87,7 @@
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-任务信息
+新的任务
 </panel_attributes>
     <additional_attributes>10.0;20.0;350.0;20.0</additional_attributes>
   </element>
@@ -137,7 +137,7 @@
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-支付薪酬</panel_attributes>
+填写任务详情与薪酬</panel_attributes>
     <additional_attributes>350.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -149,7 +149,7 @@
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-支付结果
+任务信息
 </panel_attributes>
     <additional_attributes>10.0;20.0;350.0;20.0</additional_attributes>
   </element>
@@ -368,7 +368,7 @@
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-问卷信息
+新的问卷
 </panel_attributes>
     <additional_attributes>10.0;20.0;350.0;20.0</additional_attributes>
   </element>
@@ -381,7 +381,7 @@
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-
-支付薪酬</panel_attributes>
+填写问卷问题与薪酬</panel_attributes>
     <additional_attributes>350.0;20.0;10.0;20.0</additional_attributes>
   </element>
   <element>
@@ -393,7 +393,7 @@
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
-支付结果
+问卷信息
 </panel_attributes>
     <additional_attributes>10.0;20.0;350.0;20.0</additional_attributes>
   </element>

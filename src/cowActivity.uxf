@@ -4,8 +4,8 @@
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>280</x>
-      <y>90</y>
+      <x>330</x>
+      <y>0</y>
       <w>20</w>
       <h>20</h>
     </coordinates>
@@ -15,8 +15,8 @@
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>280</x>
-      <y>420</y>
+      <x>330</x>
+      <y>540</y>
       <w>20</w>
       <h>20</h>
     </coordinates>
@@ -26,8 +26,8 @@
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>250</x>
-      <y>140</y>
+      <x>300</x>
+      <y>50</y>
       <w>90</w>
       <h>40</h>
     </coordinates>
@@ -37,8 +37,8 @@
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>270</x>
-      <y>210</y>
+      <x>320</x>
+      <y>120</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
@@ -48,20 +48,20 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
-      <y>150</y>
-      <w>190</w>
+      <x>350</x>
+      <y>60</y>
+      <w>180</w>
       <h>100</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-[登录失败]</panel_attributes>
+登录失败</panel_attributes>
     <additional_attributes>40.0;10.0;110.0;10.0;110.0;80.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
-      <y>170</y>
+      <x>330</x>
+      <y>80</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
@@ -71,20 +71,20 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
-      <y>240</y>
-      <w>260</w>
-      <h>200</h>
+      <x>330</x>
+      <y>150</y>
+      <w>30</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-[用户名和密码无重复且不违反无规则]</panel_attributes>
-    <additional_attributes>10.0;180.0;10.0;10.0</additional_attributes>
+</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
-      <y>100</y>
+      <x>330</x>
+      <y>10</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
@@ -94,8 +94,8 @@
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>70</x>
-      <y>110</y>
+      <x>120</x>
+      <y>20</y>
       <w>100</w>
       <h>40</h>
     </coordinates>
@@ -105,8 +105,8 @@
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>20</x>
-      <y>60</y>
+      <x>10</x>
+      <y>410</y>
       <w>40</w>
       <h>40</h>
     </coordinates>
@@ -116,12 +116,389 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>30</x>
-      <y>20</y>
+      <x>20</x>
+      <y>200</y>
+      <w>30</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>430</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>300</x>
+      <y>190</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>创建问卷</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>220</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>300</x>
+      <y>260</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>填写问题</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>290</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>300</x>
+      <y>330</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>填写薪酬</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>360</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>300</x>
+      <y>400</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>发布问卷</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>320</x>
+      <y>470</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>200</y>
+      <w>140</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+继续发布问卷</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0;10.0;290.0;120.0;290.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>500</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>320</x>
+      <y>690</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>320</x>
+      <y>1230</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>290</x>
+      <y>740</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>奶牛登录</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>310</x>
+      <y>810</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>750</y>
+      <w>180</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+登录失败</panel_attributes>
+    <additional_attributes>40.0;10.0;110.0;10.0;110.0;80.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>770</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>840</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>700</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>120</x>
+      <y>730</y>
+      <w>100</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>奶牛发布任务</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>0</x>
+      <y>1100</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>10</x>
+      <y>890</y>
+      <w>30</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>1120</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>290</x>
+      <y>880</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>创建任务</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>910</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>290</x>
+      <y>950</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>填写任务详情</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>980</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>290</x>
+      <y>1020</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>填写薪酬</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>1050</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>290</x>
+      <y>1090</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>发布任务</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>310</x>
+      <y>1160</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>190</x>
+      <y>890</y>
+      <w>140</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+继续发布任务</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0;10.0;290.0;120.0;290.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>320</x>
+      <y>1190</y>
+      <w>30</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>

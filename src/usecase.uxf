@@ -74,17 +74,6 @@ valign=top</panel_attributes>
     <id>UMLUseCase</id>
     <coordinates>
       <x>330</x>
-      <y>410</y>
-      <w>120</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>提现</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>330</x>
       <y>360</y>
       <w>120</w>
       <h>40</h>
@@ -123,28 +112,6 @@ valign=top</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>登陆</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>330</x>
-      <y>540</y>
-      <w>120</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>加入兴趣组</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>330</x>
-      <y>460</y>
-      <w>120</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>创建兴趣组</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -236,50 +203,6 @@ valign=top</panel_attributes>
     <additional_attributes>10.0;70.0;210.0;10.0</additional_attributes>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>130</x>
-      <y>260</y>
-      <w>220</w>
-      <h>190</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>10.0;10.0;200.0;170.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>130</x>
-      <y>260</y>
-      <w>220</w>
-      <h>250</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>10.0;10.0;200.0;230.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>130</x>
-      <y>260</y>
-      <w>230</w>
-      <h>320</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>10.0;10.0;210.0;300.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>440</x>
-      <y>410</y>
-      <w>410</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes/>
-    <additional_attributes>10.0;20.0;390.0;20.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLUseCase</id>
     <coordinates>
       <x>580</x>
@@ -324,16 +247,5 @@ valign=top</panel_attributes>
     <panel_attributes>lt=.&gt;
 &lt;&lt;extends&gt;&gt;</panel_attributes>
     <additional_attributes>140.0;80.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLGeneric</id>
-    <coordinates>
-      <x>830</x>
-      <y>410</y>
-      <w>120</w>
-      <h>40</h>
-    </coordinates>
-    <panel_attributes>微信平台</panel_attributes>
-    <additional_attributes/>
   </element>
 </diagram>

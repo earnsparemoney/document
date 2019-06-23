@@ -83,8 +83,8 @@ publish ^</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>620</x>
-      <y>320</y>
+      <x>950</x>
+      <y>210</y>
       <w>70</w>
       <h>150</h>
     </coordinates>
@@ -97,8 +97,8 @@ join ^</panel_attributes>
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>560</x>
-      <y>250</y>
+      <x>890</x>
+      <y>140</y>
       <w>130</w>
       <h>80</h>
     </coordinates>
