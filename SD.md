@@ -53,7 +53,7 @@ v1.2|2019.6.23|完成模块设计、更新API设计|章恒
     ![](pics/API/API13.png)
     ![](pics/API/API14.png)
 
-**Questionnaire**
+**Questionnaires**
 - 数据结构
 
     ![](pics/API/Model6.png)
@@ -62,7 +62,10 @@ v1.2|2019.6.23|完成模块设计、更新API设计|章恒
     ![](pics/API/API15.png)
     ![](pics/API/API16.png)
     ![](pics/API/API17.png)
-
+    ![](pics/API/API18.png)
+    ![](pics/API/API19.png)
+    ![](pics/API/API20.png)
+    ![](pics/API/API21.png)
 
 **Error**
 - 数据结构
@@ -70,7 +73,7 @@ v1.2|2019.6.23|完成模块设计、更新API设计|章恒
     ![](pics/API/Model5.png)
 
 ---
-### 4. 技术选型理由
+### 4. 技术选型及理由
 
 ---
 ### 5. Architecture design（架构设计）
@@ -81,3 +84,5 @@ v1.2|2019.6.23|完成模块设计、更新API设计|章恒
 
 ---
 ### 7. 软件设计技术
+
+
