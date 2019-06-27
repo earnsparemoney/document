@@ -1,7 +1,7 @@
 # 文档
 Document about earn spare money
 
-1. [安装部署说明](./about.md)
+1. [安装部署说明](./部署文档.md)
 
 2. [软件需求规格说明书（SRS）](./SRS.md)
 
