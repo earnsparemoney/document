@@ -14,8 +14,56 @@ v1.3|2019.6.27|完成Server端的技术选型及理由、架构设计|朱俊凯
 
 ### PC端挣闲钱UI设计
 
+#### 账号相关
+- 注册
 
+    ![](pics/UI/UI_PC_register.png)
+- 登录
+
+    ![](pics/UI/UI_PC_login.png)
+- 个人中心
+
+    ![](pics/UI/UI_PC_personalDetail.png)
+
+#### 问卷中心
+- 问卷中心
+
+    ![](pics/UI/UI_PC_questionnaire1.png)
+- 填写问卷
+
+    ![](pics/UI/UI_PC_questionnaire2.png)
+- 创建新的问卷
+
+    ![](pics/UI/UI_PC_questionnaire3.png)
+- 管理问卷
+
+    ![](pics/UI/UI_PC_questionnaire4.png)
+- 删除问卷
+
+    ![](pics/UI/UI_PC_questionnaire5.png)
+
+#### 任务中心
+- 任务中心
+
+    ![](pics/UI/UI_PC_task1.png)
+- 查看任务
+
+    ![](pics/UI/UI_PC_task2.png)
+- 发布新的任务
+
+    ![](pics/UI/UI_PC_task3.png)
+- 删除任务
+
+    ![](pics/UI/UI_PC_task4.png)
+
+---
 ### 移动端挣闲钱UI设计
+
+#### 账号相关
+
+#### 问卷中心
+
+#### 任务中心
 
 
 ---

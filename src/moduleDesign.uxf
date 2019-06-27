@@ -327,7 +327,7 @@ bg=light_gray</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>230</x>
+      <x>190</x>
       <y>1420</y>
       <w>50</w>
       <h>30</h>
@@ -341,13 +341,13 @@ bg=light_gray</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
+      <x>260</x>
       <y>1360</y>
-      <w>40</w>
+      <w>80</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;60.0;20.0;10.0</additional_attributes>
+    <additional_attributes>10.0;60.0;60.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -363,18 +363,18 @@ bg=light_gray</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>250</x>
+      <x>210</x>
       <y>1360</y>
-      <w>90</w>
+      <w>130</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;60.0;70.0;10.0</additional_attributes>
+    <additional_attributes>10.0;60.0;110.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>280</x>
+      <x>240</x>
       <y>1420</y>
       <w>50</w>
       <h>30</h>
@@ -540,16 +540,16 @@ bg=light_gray</panel_attributes>
     <coordinates>
       <x>310</x>
       <y>1360</y>
-      <w>60</w>
+      <w>80</w>
       <h>80</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>40.0;60.0;10.0;10.0</additional_attributes>
+    <additional_attributes>60.0;60.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>330</x>
+      <x>350</x>
       <y>1420</y>
       <w>50</w>
       <h>30</h>
@@ -659,5 +659,30 @@ bg=light_gray</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>100.0;60.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>290</x>
+      <y>1420</y>
+      <w>60</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>个人中心
+valign=center
+fg=black
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>310</x>
+      <y>1360</y>
+      <w>30</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;60.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
