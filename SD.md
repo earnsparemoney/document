@@ -9,24 +9,24 @@ v1.2|2019.6.23|完成模块设计、更新API设计|章恒
 v1.3|2019.6.27|完成Server端的技术选型及理由、架构设计|朱俊凯
 
 ---
-### 1. UI design
+## 1. UI design
 根据需求规格说明书（SRS）的补充需求，我们小组的UI设计由两个部分组成：**PC端**与**移动端**
 
-#### PC端挣闲钱UI设计
+### PC端挣闲钱UI设计
 
 
-#### 移动端挣闲钱UI设计
+### 移动端挣闲钱UI设计
 
 
 ---
-### 2. Database design
+## 2. Database design
 
-#### ER图
+### ER图
 ![](pics/SD/ER.png)
 
 
 ---
-### 3. Interface API design 
+## 3. Interface API design 
 
 **User**
 - 数据结构
@@ -74,9 +74,9 @@ v1.3|2019.6.27|完成Server端的技术选型及理由、架构设计|朱俊凯
     ![](pics/API/Model5.png)
 
 ---
-### 4. 技术选型及理由
+## 4. 技术选型及理由
 
-#### Server端
+### Server端
 
 开发环境：Nodejs
 
@@ -109,9 +109,12 @@ nodejs最强的就是他的异步编程和网络设计，Sequelize框架本身�
 
 
 ---
-### 5. Architecture design（架构设计）
+## 5. Architecture design（架构设计）
 
-#### Server端
+### Client
+
+
+### Server
 
 <strong>MVC架构</strong>
 
@@ -121,11 +124,13 @@ nodejs最强的就是他的异步编程和网络设计，Sequelize框架本身�
 
 优点：利于批量生产、层次分明,架构清晰、利于维护，利于写质量高的网站 
 
+
+
 ---
-### 6. Module dividing（模块划分）
+## 6. Module dividing（模块划分）
 ![](pics/SD/ModuleDesign.png)
 
 ---
-### 7. 软件设计技术
+## 7. 软件设计技术
 
 
