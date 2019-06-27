@@ -72,7 +72,6 @@ v1.3|2019.6.27|完成Server端的技术选型及理由、架构设计|朱俊凯
 ### ER图
 ![](pics/SD/ER.png)
 
-
 ---
 ## 3. Interface API design 
 
@@ -126,6 +125,43 @@ v1.3|2019.6.27|完成Server端的技术选型及理由、架构设计|朱俊凯
 
 ### Client
 
+打包工具：Webpack
+
+> 理由
+
+- webpack提供了Loader用于转换不同格式的文件，Plugin对转换过的资源进行处理，并且开发者可以自行实现Loader和Plugin，这种机制有助于自定义开发环境，提高开发效率
+- webpack dev server是webpack内置的一个服务器，访问该服务器可以看到开发的页面，并且dev server提供了很多配置，例如：热更新、代理等，对页面的更改可以进行实时的变更并解决跨域问题
+- webpack打包过程可以启用cache loader缓存打包的内容，DLL Plugin将一些不常变动的第三方库进行打包，对往后的打包速度有着极大的提升
+
+开发框架：Vue
+
+> 理由
+
+- Vue框架关注视图层，对数据与DOM之间进行了绑定
+- 单文件组件的编写方式与传统的方式相差不大，更加易于上手与使用
+- 生态环境完善，Vue CLI提供了web开发的基础环境配置，并且提供了易于扩展配置的方法和一系列插件
+- 在服务端渲染上有自己的工具链
+
+应用特性：PWA、SSR，Modern Build
+
+> PWA
+
+- 不同于传统的HTTP缓存机制，PWA借助Service Worker保存在Cache Storage的缓存在用户离线时也能进行响应，而不是直接返回404页面
+- 使用Service Worker可以在前端对请求的缓存策略做出更细粒度的划分
+- 在用户访问过一次网址后，采用缓存优先的策略将不会有首屏加载过慢的问题
+- 配置manifest.json文件可以让用户安装应用到桌面，让用户能够更快捷、更方便的使用，提供一种原生App的感觉
+
+> SSR
+
+- 服务端渲染可以很好的解决首屏加载慢、SEO不友好的问题
+- 用户第一次访问网站，页面的渲染只需等待html、css的加载过程，比传统的SPA减少了js加载并执行生成DOM的过程，页面呈现速度更快，配合PWA的使用，最大程度上降低首屏问题
+
+> Modern Build
+
+- 现代模式构建打包能够提供两套不同的资源，一份是Babel转译过的，一份是没有转译的，对于浏览器版本更高的用户，无需下载转移过的冗余的代码，减少不必要的带宽浪费
+
+
+
 ### Server
 
 开发环境：Nodejs
@@ -156,7 +192,6 @@ v1.3|2019.6.27|完成Server端的技术选型及理由、架构设计|朱俊凯
 
 > Sequelize 是 Node 的一个 ORM(Object-Relational Mapping) 框架，用来方便数据库操作。
 nodejs最强的就是他的异步编程和网络设计，Sequelize框架本身就是支持Promise的，默认的也是异步调用（当然也可以写成同步），另外一点就是Sequelize它支持方言PostgreSQL，MySQL，SQLite和MSSQL，并具有可靠的事务支持，关系，读取复制等功能
-
 
 ---
 ## 5. Architecture design（架构设计）
