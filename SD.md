@@ -234,11 +234,11 @@ nodejs最强的就是他的异步编程和网络设计，Sequelize框架本身�
 
 1. 
 
-![1561592462015](C:\Users\ZZT\Documents\course\OOAD\earnsparemoney.github.io\pics\typora-user-images\1561592462015.png)
+![1561592462015](pics\SD1\1561592462015.png)
 
-2. ![1561592534761](C:\Users\ZZT\Documents\course\OOAD\earnsparemoney.github.io\pics\typora-user-images\1561592534761.png)
-3. ![1561592598579](C:\Users\ZZT\Documents\course\OOAD\earnsparemoney.github.io\pics\typora-user-images\1561592598579.png)
-4. ![1561592633462](C:\Users\ZZT\Documents\course\OOAD\earnsparemoney.github.io\pics\typora-user-images\1561592633462.png)
+2. ![1561592534761](pics\SD1\1561592534761.png)
+3. ![1561592598579](pics\SD1\1561592598579.png)
+4. ![1561592633462](pics\SD1\1561592633462.png)
 
 ## 2. object-oriented programming
 
@@ -249,13 +249,13 @@ nodejs最强的就是他的异步编程和网络设计，Sequelize框架本身�
 
 上面所说的技术对应代码如下：
 
-1. ![1561593235622](C:\Users\ZZT\Documents\course\OOAD\earnsparemoney.github.io\pics\typora-user-images\1561593235622.png)
+1. ![1561593235622](pics\SD1\1561593235622.png)
 
    这一块是从总体结构上说明我们的面向对象的技术实现的，在代码文件组织中，我们就充分运用了面向对象的思想，通过MVC方法，更好的分解任务，是我们能够更好的理解任务。
 
    2. 
 
-   ![1561622210625](C:\Users\ZZT\Documents\course\OOAD\earnsparemoney.github.io\pics\typora-user-images\1561622210625.png)
+   ![1561622210625](pics\SD1\1561622210625.png)
 
    这一块表明我们将model中的实体的questionnaire抽象为一个对象， 其中包含title， question， description等属性，同时经过sequelize处理后变成sequelize的对象，加上CRUD的方法，这样questionnaire对象就有了属性和方法让上层功能模块调用
 
@@ -265,4 +265,4 @@ nodejs最强的就是他的异步编程和网络设计，Sequelize框架本身�
 
 具体代码如下：
 
-1. ![1561622668146](C:\Users\ZZT\Documents\course\OOAD\earnsparemoney.github.io\pics\typora-user-images\1561622668146.png)
+1. ![1561622668146](pics\SD1\1561622668146.png)
