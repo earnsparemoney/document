@@ -76,6 +76,7 @@ v1.3|2019.6.27|完成技术选型及理由、架构设计|朱俊凯
 ---
 ### 4. 技术选型及理由
 
+#### Server端
 
 开发环境：Nodejs
 
@@ -109,6 +110,8 @@ nodejs最强的就是他的异步编程和网络设计，Sequelize框架本身�
 
 ---
 ### 5. Architecture design（架构设计）
+
+#### Server端
 
 <strong>MVC架构</strong>
 
