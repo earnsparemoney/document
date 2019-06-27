@@ -7,10 +7,11 @@ v1.0|2019.5.27|完成API设计|章恒
 v1.1|2019.5.28|完成数据库设计|章恒
 v1.2|2019.6.23|完成模块设计、更新API设计|章恒
 v1.3|2019.6.27|完成Server端的技术选型及理由、架构设计|朱俊凯
+v1.4|2019.6.27|完成UI设计、更新架构设计|章恒
 
 ---
 ## 1. UI design
-根据需求规格说明书（SRS）的补充需求，我们小组的UI设计由两个部分组成：**PC端**与**移动端**
+根据需求规格说明书（SRS）的补充需求，我们小组的UI设计由两个部分组成：**PC端**与**移动端**，根据不同的设备（PC还是移动设备）显示不同的UI内容。
 
 ### PC端挣闲钱UI设计
 
@@ -24,6 +25,10 @@ v1.3|2019.6.27|完成Server端的技术选型及理由、架构设计|朱俊凯
 - 个人中心
 
     ![](pics/UI/UI_PC_personalDetail.png)
+- 更新用户信息
+
+    ![](pics/UI/UI_PC_updateUserInfo.png)
+
 
 #### 问卷中心
 - 问卷中心
@@ -59,11 +64,56 @@ v1.3|2019.6.27|完成Server端的技术选型及理由、架构设计|朱俊凯
 ---
 ### 移动端挣闲钱UI设计
 
+
 #### 账号相关
+- 注册
+
+    ![](pics/UI/UI_Mobile_register.png)
+- 登录
+
+    ![](pics/UI/UI_Mobile_login.png)
+- 个人中心
+
+    ![](pics/UI/UI_Mobile_personal1.png)
+- 更新用户信息
+
+    ![](pics/UI/UI_Mobile_updateUserInfo.png)
+
 
 #### 问卷中心
+- 问卷中心
+
+    ![](pics/UI/UI_Mobile_questionnaire1.png)
+- 填写问卷
+
+    ![](pics/UI/UI_Mobile_questionnaire2.png)
+- 创建新的问卷
+
+    ![](pics/UI/UI_Mobile_questionnaire3_1.png)
+    ![](pics/UI/UI_Mobile_questionnaire3_2.png)
+    ![](pics/UI/UI_Mobile_questionnaire3_3.png)
+    ![](pics/UI/UI_Mobile_questionnaire3_4.png)
+- 管理问卷
+
+    ![](pics/UI/UI_Mobile_questionnaire4.png)
+- 删除问卷
+
+    ![](pics/UI/UI_Mobile_questionnaire5.png)
 
 #### 任务中心
+- 任务中心
+
+    ![](pics/UI/UI_Mobile_task1.png)
+- 查看任务
+
+    ![](pics/UI/UI_Mobile_task2.png)
+- 发布新的任务
+
+    ![](pics/UI/UI_Mobile_task3.png)
+- 删除任务
+
+    ![](pics/UI/UI_Mobile_task4.png)
+
 
 ---
 ## 2. Database design
@@ -218,8 +268,7 @@ nodejs最强的就是他的异步编程和网络设计，Sequelize框架本身�
 ## 7. 软件设计技术
 
 
-
-## 1. structure programming
+## 1. Structure Programming
 
 我们在处理每个请求的顺序的时候，总体上是通过面向结构的思想处理的，也就是每个请求是通过一个个中间件或者处理函数处理的。
 
@@ -240,7 +289,7 @@ nodejs最强的就是他的异步编程和网络设计，Sequelize框架本身�
 3. ![1561592598579](pics/SD1/1561592598579.png)
 4. ![1561592633462](pics/SD1/1561592633462.png)
 
-## 2. object-oriented programming
+## 2. Object-Oriented Programming
 
 在我们的项目中，同样用到了面向对象的设计技术，主要体现在：
 
@@ -259,7 +308,7 @@ nodejs最强的就是他的异步编程和网络设计，Sequelize框架本身�
 
    这一块表明我们将model中的实体的questionnaire抽象为一个对象， 其中包含title， question， description等属性，同时经过sequelize处理后变成sequelize的对象，加上CRUD的方法，这样questionnaire对象就有了属性和方法让上层功能模块调用
 
-## 3. design patterns
+## 3. Design Patterns
 
 在设计模式中，我们运用到了经典的单例模式。具体实现是我们在每个路由请求的路由函数和controller中，都只使用了一个controller来处理对应路径的请求，保证了只对一个对象操作，避免混淆。
 
