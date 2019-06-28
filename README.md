@@ -59,16 +59,19 @@ Document about earn spare money
     - [16340308-现代模式打包构建](https://limsanity.github.io/Web/%E7%8E%B0%E4%BB%A3%E6%A8%A1%E5%BC%8F%E6%89%93%E5%8C%85.html)
     - [16340308-服务端渲染](https://limsanity.github.io/Web/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E6%B8%B2%E6%9F%93%E5%BC%80%E5%8F%91%E8%AE%B0%E5%BD%95.html)
     - [16340308-PWA、SSR、Modern Build的集成](https:///limsanity.github.io/Web/PWA、服务端渲染、现代模式构建的集成.html)
-    
     - [16340308-Docker容器化](https://limsanity.github.io/Web/Docker%E5%AE%B9%E5%99%A8%E5%8C%96.html)
-    
     - [16340308-webpack常见配置](https://limsanity.github.io/Web/webpack%E5%B8%B8%E8%A7%81%E9%85%8D%E7%BD%AE.html)
-
-
+    - [16340315-DockerFile学习](http://722king.cn/posts/%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/2019-06-29-Dockerfile.html#more)
+    - [16340315-nodejs multer学习](http://722king.cn/posts/%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/2019-06-29-multer.html#more)
+    - [16340315-nodejs log4js学习](http://722king.cn/posts/%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/2019-06-29-log4js.html#more)
+    - [16340315-golang validator 验证数据格式](http://722king.cn/posts/%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/2019-06-27-govalidator.html#more)
+    - [16340315-golang 读取使用配置文件](http://722king.cn/posts/%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/2019-06-26-go-viper.html#more)
+    - [16340315-golang JWT实现Token认证](http://722king.cn/posts/%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/2019-06-26-go-echo-jwt.html#more)
 
 - X5 Final Report
     - [16340309-FinalReport](document/16340309-FinalReport.md)
     - [16340320-FinalReport](document/16340320-FinalReport.md)
     - [16340308-FinalReport](document/16340308-FinalReport.md)
+    - [16340315-FinalReport](document/16340315-FinalReport.md)
     - [小组分工与贡献率说明](document/小组分工与贡献率说明.md)
 
