@@ -14,16 +14,16 @@ v1.6|2019.6.27|完成架构设计|钟文谦
 ---
 
 **目录**
-1. [UI design（界面设计）](document/SoftwareDesign/SD.md)
-    - [PC端UI设计](document/SoftwareDesign/UIdesignPC.md)
-    - [移动端UI设计](document/SoftwareDesign/UIdesignMobile.md)
+1. UI design（界面设计）
+    - [PC端UI设计](UIdesignPC.md)
+    - [移动端UI设计](UIdesignMobile.md)
 2. [Database design（数据库设计）](pics/SD/ER.png)
-3. [Interface API design（接口 API 设计）](document/SoftwareDesign/APIdesign.md)
+3. [Interface API design（接口 API 设计）](APIdesign.md)
     - [API说明书]()
-4. [Architecture design（架构设计）](document/SoftwareDesign/架构设计.md)
+4. [Architecture design（架构设计）](架构设计.md)
 5. [Module design（模块设计）](pics/SD/ModuleDesign.png)
-6. [技术选型及理由](document/SoftwareDesign/技术选型及理由.md)
-7. [软件设计技术](document/SoftwareDesign/软件设计技术.md)
+6. [技术选型及理由](技术选型及理由.md)
+7. [软件设计技术](软件设计技术.md)
 
 
 

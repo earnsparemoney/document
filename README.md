@@ -13,8 +13,8 @@ Document about earn spare money
     - 6.4 State Models（状态模型）
     - 6.5 System Sequence Diagrams（功能模型）
     - 6.6 Supplementary Requirements（补充需求）
-7. Design（设计说明书）
-    - 7.1 [UI design（界面设计）](document/SoftwareDesign/SD.md)
+7. [Design（设计说明书）](document/SoftwareDesign/SD.md)
+    - 7.1 UI design（界面设计）
         - [PC端UI设计](document/SoftwareDesign/UIdesignPC.md)
         - [移动端UI设计](document/SoftwareDesign/UIdesignMobile.md)
     - 7.2 [Database design（数据库设计）](pics/SD/ER.png)
