@@ -3,15 +3,15 @@
 ### 1.用例图，业务过程/多泳道图
 - 1.1 挣闲钱系统用例图
 
-    ![](pics/SRS/usecase.png)
+    ![](../pics/SRS/usecase.png)
 
 - 1.2 挣闲钱业务过程模型（多泳道图）
     - 场景1：奶牛发布问卷给学生用户填写并给予薪酬
 
-        ![](pics/SRS/swimlane1.png)
+        ![](../pics/SRS/swimlane1.png)
     - 场景1：奶牛发布任务给学生用户完成并给予薪酬
 
-        ![](pics/SRS/swimlane2.png)
+        ![](../pics/SRS/swimlane2.png)
 
 ---
 ### 2.用例文本与活动图
@@ -31,56 +31,56 @@
 - **按发布时间排序问卷**：学生用户在问卷中心对所有的可填写问卷按发布时间排序，
 - **按发布时间排序任务**：学生用户在问卷中心对所有的可填写问卷按发布时间排序，
 
-下面是`主成功场景`——**用户（学生，奶牛）注册**、**奶牛发布问卷**、**奶牛发布任务**、**学生填写问卷**以及**学生完成任务**的活动图，更多活动图见pics/Activity文件夹。
+下面是`主成功场景`——**用户（学生，奶牛）注册**、**奶牛发布问卷**、**奶牛发布任务**、**学生填写问卷**以及**学生完成任务**的活动图，更多活动图见../pics/Activity文件夹。
 - **用户（学生，奶牛）注册**
 
-    ![](pics/Activity/registerActivity.png)
+    ![](../pics/Activity/registerActivity.png)
 - **奶牛发布问卷**
 
-    ![](pics/Activity/cowActivityQue.png)
+    ![](../pics/Activity/cowActivityQue.png)
 - **奶牛发布任务**
 
-    ![](pics/Activity/cowActivityTask.png)
+    ![](../pics/Activity/cowActivityTask.png)
 - **学生填写问卷**
     
-    ![](pics/Activity/stuActivityQue.png)
+    ![](../pics/Activity/stuActivityQue.png)
 - **学生完成任务**
 
-    ![](pics/Activity/stuActivityTask.png)
+    ![](../pics/Activity/stuActivityTask.png)
 
 ---
 ### 3.领域模型
 - 3.1 挣闲钱系统用例进行领域模型
 
-    ![](pics/SRS/domainModel.png)
+    ![](../pics/SRS/domainModel.png)
 
 ---
 ### 4.状态模型
 - 4.1 学生对象状态模型
 
-    ![](pics/SRS/stateModelStudent.png)
+    ![](../pics/SRS/stateModelStudent.png)
 
 - 4.2 奶牛对象状态模型
 
-    ![](pics/SRS/stateModelCow.png)
+    ![](../pics/SRS/stateModelCow.png)
 
 ---
 ### 5.功能模型
 - 5.1 学生接受任务场景系统顺序图
 
-    ![](pics/SRS/sequenceDiagramStu1.png)
+    ![](../pics/SRS/sequenceDiagramStu1.png)
 
 - 5.2 学生填写问卷场景系统顺序图
 
-    ![](pics/SRS/sequenceDiagramStu2.png)
+    ![](../pics/SRS/sequenceDiagramStu2.png)
 
 - 5.3 奶牛发布任务场景系统顺序图
 
-    ![](pics/SRS/sequenceDiagramCow1.png)
+    ![](../pics/SRS/sequenceDiagramCow1.png)
 
 - 5.4 奶牛发布问卷场景系统顺序图
 
-    ![](pics/SRS/sequenceDiagramCow2.png)
+    ![](../pics/SRS/sequenceDiagramCow2.png)
 
 ---
 ### 6.补充需求（非功能需求）
