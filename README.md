@@ -45,6 +45,16 @@ Document about earn spare money
     - [16340298-功能模块划分](https://clearloveh.github.io/2019/06/26/SystemAnalysisandDesign-ModuleDesign/)
     - [16340298-软件架构](https://clearloveh.github.io/2019/06/27/SystemAnalysisandDesign-ArchitectureDesign/)
     - [16340298-设计模式——MVVM](https://clearloveh.github.io/2019/06/28/SystemAnalysisandDesign-MVVM/)
+    - [16340309-后端项目容器化(依赖关系镜像中docker-compose书写)-DockerFile学习之路](https://zhongwq.github.io/SystemAnalysis/%E5%90%8E%E7%AB%AF%E9%A1%B9%E7%9B%AE%E5%AE%B9%E5%99%A8%E5%8C%96(%E4%BE%9D%E8%B5%96%E5%85%B3%E7%B3%BB%E9%95%9C%E5%83%8F%E4%B8%ADdocker-compose%E4%B9%A6%E5%86%99)-DockerFile%E5%AD%A6%E4%B9%A0%E4%B9%8B%E8%B7%AF/)
+    - [16340309-Vue前端路由鉴权的使用](https://zhongwq.github.io/SystemAnalysis/Vue%E5%89%8D%E7%AB%AF%E8%B7%AF%E7%94%B1%E9%89%B4%E6%9D%83%E7%9A%84%E4%BD%BF%E7%94%A8/)
+    - [16340309-Vue前端多端适配初识](https://zhongwq.github.io/SystemAnalysis/%E5%89%8D%E7%AB%AF%E5%A4%9A%E7%AB%AF%E9%80%82%E9%85%8D%E5%88%9D%E8%AF%86/)
+    - [16340309-Node.js Multer使用](https://zhongwq.github.io/SystemAnalysis/Node.js%20Multer%E4%BD%BF%E7%94%A8/)
+    - [16340309-Node.js Joi使用](https://zhongwq.github.io/SystemAnalysis/Node.js%20joi%E4%BD%BF%E7%94%A8/)
+    - [16340309-Mac下docker访问主机服务](https://zhongwq.github.io/SystemAnalysis/Mac%E4%B8%8Bdocker%E8%AE%BF%E9%97%AE%E4%B8%BB%E6%9C%BA%E6%9C%8D%E5%8A%A1/)
+
+
+
 - X5 Final Report
+    - [16340309-FinalReport](document/16340309-FinalReport.md)
     - [小组分工与贡献率说明](document/小组分工与贡献率说明.md)
 
