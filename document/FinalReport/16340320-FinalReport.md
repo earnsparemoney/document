@@ -34,7 +34,7 @@ Postmortem & Process Improvement Plan| 事后总结, 并提出过程改进计划
 ![](../media/img/16340320_backendContribution.png)
 
 **Git Pages 文档**
-![](../media/img/16340329_gitpage.png)
+![](../media/img/16340320_gitpage.png)
 
 ## 自认为最得意/或有价值/或有苦劳的工作清单，含简短说明
 - 对模型的数据对象关系的设计，包括问卷，任务，用户对象之间数据关系的设计。
