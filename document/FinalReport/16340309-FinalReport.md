@@ -51,7 +51,7 @@ Postmortem & Process Improvement Plan| 事后总结, 并提出过程改进计划
 
 由于组内文档主要由一个同学负责，所以贡献不多
 
-![截屏2019-06-28下午2.54.53](../media/img/%E6%88%AA%E5%B1%8F2019-06-28%E4%B8%8B%E5%8D%882.54.53.png)
+![contributes](../media/img/contributes.png)
 
 
 ### 自认为最得意/或有价值/或有苦劳的工作清单，含简短说明
