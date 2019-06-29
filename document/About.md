@@ -29,7 +29,7 @@
 ---
 ## 3、敏捷开发迭代管理与大事纪
 
-我们项目小组使用的看板是[Worktile](https://link.zhihu.com/?target=https%3A//worktile.com/solution/project%3Futm_source%3Dzhihu%26utm_medium%3Dkaya%26utm_term%3Dkanban)
+我们项目小组使用的看板是[Worktile](https://heti20190629102823258.worktile.com/mission/projects/5d173d86a3f61c3b135b34f0)
 
 ### Inceptions
 
@@ -57,7 +57,7 @@
 
 ### Iteration 2
 
-**Week 10-12 (2019-5-4 to 2019-5-21)**
+**Week 10-12 (2019-5-4 to 2019-5-19)**
 - 代码规范
 - 用例设计、状态建模与领域建模
 - 数据库设计
