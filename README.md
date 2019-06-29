@@ -38,7 +38,7 @@ Document about earn spare money
 - X1 meeting-records
   
     - inception meeting (yy/mm/dd)
-- X2 KANBAN
+- X2 [KANBAN](document/KANBAN.md)
 - X3 auditing-records
 - X4 Tech/Work Report
     - [16340298-使用Swagger Editor来设计和管理API文档](https://clearloveh.github.io/2019/06/23/SystemAnalysisandDesign-SwaggerEditor/)
