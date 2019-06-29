@@ -1,6 +1,6 @@
-## Software Requirement specification（软件需求规格说明书）
+# Software Requirement specification（软件需求规格说明书）
 
-### 1.用例图，业务过程/多泳道图
+## 1.用例图，业务过程/多泳道图
 - 1.1 挣闲钱系统用例图
 
     ![](../pics/SRS/usecase.png)
@@ -14,7 +14,7 @@
         ![](../pics/SRS/swimlane2.png)
 
 ---
-### 2.用例文本与活动图
+## 2.用例文本与活动图
 
 整个挣闲钱系统按照业务划分为下面几个**基本用例**，用例文本如下：
 - **用户（学生，奶牛）注册**：奶牛或者学生用户注册系统。
@@ -49,13 +49,13 @@
     ![](../pics/Activity/stuActivityTask.png)
 
 ---
-### 3.领域模型
+## 3.领域模型
 - 3.1 挣闲钱系统用例进行领域模型
 
     ![](../pics/SRS/domainModel.png)
 
 ---
-### 4.状态模型
+## 4.状态模型
 - 4.1 学生对象状态模型
 
     ![](../pics/SRS/stateModelStudent.png)
@@ -65,7 +65,7 @@
     ![](../pics/SRS/stateModelCow.png)
 
 ---
-### 5.功能模型
+## 5.功能模型
 - 5.1 学生接受任务场景系统顺序图
 
     ![](../pics/SRS/sequenceDiagramStu1.png)
@@ -83,7 +83,7 @@
     ![](../pics/SRS/sequenceDiagramCow2.png)
 
 ---
-### 6.补充需求（非功能需求）
+## 6.补充需求（非功能需求）
 
-#### 可支持性——多终端适配
+### 可支持性——多终端适配
 奶牛用户可以在Android或iOS等多种操作系统的设备上打开挣闲钱系统，或者在PC端上使用，让奶牛用户在不同终端上都可以成功地在挣闲钱上发布问卷与任务；学生用户也可以在PC端上或者移动端上打开挣闲钱接收任务或者填写问卷。而且根据设备的不同动态地调整UI，适配PC端与移动端。

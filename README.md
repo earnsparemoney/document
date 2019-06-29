@@ -1,7 +1,7 @@
 # 文档
 Document about earn spare money
 
-1. [About（项目概况）]()
+1. [About（项目概况）](document/About.md)
 2. [Team profile（团队组建与分工）](document/TeamProfile.md)
 3. [Investigation（项目前期调研/竞品分析）]()
 4. [Vision（项目愿景）]()
@@ -19,13 +19,13 @@ Document about earn spare money
         - [移动端UI设计](document/SoftwareDesign/UIdesignMobile.md)
     - 7.2 [Database design（数据库设计）](pics/SD/ER.png)
     - 7.3 [Interface API design（接口 API 设计）](document/SoftwareDesign/APIdesign.md)
-        - [API说明书]()
     - 7.4 [Architecture design（架构设计）](document/SoftwareDesign/架构设计.md)
     - 7.5 [Module design（模块设计）](pics/SD/ModuleDesign.png)
     - 7.6 [技术选型及理由](document/SoftwareDesign/技术选型及理由.md)
     - 7.7 [软件设计技术](document/SoftwareDesign/软件设计技术.md)
 8. 生产规范与指南
     - 8.1 代码规范
+        - [前端代码规范](document/SoftwareDesign/前端代码规范.md)
         - [后端代码规范](document/SoftwareDesign/后端代码规范.md)
     - 8.2 [REST API 设计规范](document/SoftwareDesign/APIdesign.md)
     - 8.3 [架构设计、详细设计（BCE方法）到应用程序框架映射指南](document/SoftwareDesign/架构设计、详细设计（BCE方法）到应用程序框架映射指南.md)
@@ -36,9 +36,9 @@ Document about earn spare money
 
 ---
 - X1 meeting-records
-    
+  
     - inception meeting (yy/mm/dd)
-- X2 KANBAN
+- X2 [KANBAN](document/KANBAN.md)
 - X3 auditing-records
 - X4 Tech/Work Report
     - [16340298-使用Swagger Editor来设计和管理API文档](https://clearloveh.github.io/2019/06/23/SystemAnalysisandDesign-SwaggerEditor/)
