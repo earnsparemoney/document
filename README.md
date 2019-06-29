@@ -23,10 +23,12 @@ Document about earn spare money
     - 7.5 [Module design（模块设计）](pics/SD/ModuleDesign.png)
     - 7.6 [技术选型及理由](document/SoftwareDesign/技术选型及理由.md)
     - 7.7 [软件设计技术](document/SoftwareDesign/软件设计技术.md)
-8. [生产规范与指南]()
-    - 8.1 XX 代码规范
-    - 8.2 REST API 设计规范
-    - 8.3 架构设计、详细设计（BCE方法）到应用程序框架映射指南
+8. 生产规范与指南
+    - 8.1 代码规范
+        - [前端代码规范](document/SoftwareDesign/前端代码规范.md)
+        - [后端代码规范](document/SoftwareDesign/后端代码规范.md)
+    - 8.2 [REST API 设计规范](document/SoftwareDesign/APIdesign.md)
+    - 8.3 [架构设计、详细设计（BCE方法）到应用程序框架映射指南](document/SoftwareDesign/架构设计、详细设计（BCE方法）到应用程序框架映射指南.md)
     - 8.4 [部署说明](document/部署文档.md)
 9. [成品展示]()
     - 9.1 XX短视频
@@ -34,7 +36,7 @@ Document about earn spare money
 
 ---
 - X1 meeting-records
-    
+  
     - inception meeting (yy/mm/dd)
 - X2 KANBAN
 - X3 auditing-records
