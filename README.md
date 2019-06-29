@@ -36,11 +36,14 @@ Document about earn spare money
 
 ---
 - X1 meeting-records
-  
-    - inception meeting (yy/mm/dd)
+    - [inception meeting (2019/03/17)](document/MeetingRecords/MeetingRecord-2019-3-17.md)
+    - [1st Iteration meeting (2019/04/27)](document/MeetingRecords/MeetingRecord-2019-4-27.md)
+    - [2nd Iteration meeting (2019/05/11)](document/MeetingRecords/MeetingRecord-2019-5-11.md)
+    - [3rd Iteration meeting (2019/06/08)](document/MeetingRecords/MeetingRecord-2019-6-8.md)
+    - [紧急会议——后端出了问题](document/MeetingRecords/MeetingRecord-2019-6-12.md)
+    - [Final meeting——deadline前的冲刺阶段](document/MeetingRecords/MeetingRecord-2019-6-23.md)
 - X2 [KANBAN](document/KANBAN.md)
-- X3 auditing-records
-- X4 Tech/Work Report
+- X3 Tech/Work Report
     - [16340298-使用Swagger Editor来设计和管理API文档](https://clearloveh.github.io/2019/06/23/SystemAnalysisandDesign-SwaggerEditor/)
     - [16340298-《软件需求规格说明书》？](https://clearloveh.github.io/2019/06/24/SystemAnalysisandDesign-SRS/)
     - [16340298-《软件设计文档》？](https://clearloveh.github.io/2019/06/25/SystemAnalysisandDesign-SD/)
@@ -71,7 +74,7 @@ Document about earn spare money
     - [16340315-golang 读取使用配置文件](http://722king.cn/posts/%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/2019-06-26-go-viper.html#more)
     - [16340315-golang JWT实现Token认证](http://722king.cn/posts/%E7%B3%BB%E7%BB%9F%E5%88%86%E6%9E%90%E4%B8%8E%E8%AE%BE%E8%AE%A1/2019-06-26-go-echo-jwt.html#more)
 
-- X5 Final Report
+- X4 Final Report
     - [16340309-FinalReport](document/FinalReport/16340309-FinalReport.md)
     - [16340320-FinalReport](document/FinalReport/16340320-FinalReport.md)
     - [16340308-FinalReport](document/FinalReport/16340308-FinalReport.md)
