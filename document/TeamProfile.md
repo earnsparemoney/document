@@ -6,8 +6,8 @@
 |-|-|-|-|
 16340309|zhongwq|[github@zhongwq](https://github.com/zhongwq)|前端工程师、后端工程师
 16340308|Limsanity|[Limsanity](https://github.com/Limsanity)|前端工程师
-16340315|||
-16340320|||
+16340315|zhujunkai|[zhujunkai](https://github.com/zhujunkai)|后端工程师
+16340320|zzt|https://github.com/873421427|后端工程师，架构师|
 16340298|我恒|[ClearLoveH](https://github.com/ClearLoveH)|项目经理、测试工程师
 
 - 管理岗：项目经理、客户经理、产品经理
@@ -23,6 +23,6 @@
 |-|-|-|
 |zhongwq|前端Coding，架构设计与部分后端Coding|Lakers championship!|
 |Limsanity|前端技术选型，架构设计与部分功能的实现|让体验变得更好|
-|||
-|||
+|zhujunkai|后端技术选型与Coding|Just do it
+|zzt|后端coding， 架构设计和数据模型设计|合理的架构和设计事半功倍|
 我恒|项目的需求分析、功能模块设计、文档管理与相关的用例测试|Royal Never Giveup
