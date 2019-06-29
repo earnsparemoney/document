@@ -4,7 +4,7 @@
 
 学号|昵称	|Github|	角色
 |-|-|-|-|
-16340309| ||
+16340309|zhongwq|[github@zhongwq](https://github.com/zhongwq)|前端工程师、后端工程师
 16340308|||
 16340315|||
 16340320|||
@@ -20,7 +20,7 @@
 
 昵称|分工内容	|个人宣言
 |-|-|-|
-| ||
+|zhongwq|前端Coding，架构设计与部分后端Coding|Lakers championship!|
 |||
 |||
 |||
