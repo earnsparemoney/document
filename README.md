@@ -26,6 +26,7 @@ Document about earn spare money
     - 7.7 [软件设计技术](document/SoftwareDesign/软件设计技术.md)
 8. 生产规范与指南
     - 8.1 代码规范
+        - [前端代码规范](document/SoftwareDesign/前端代码规范.md)
         - [后端代码规范](document/SoftwareDesign/后端代码规范.md)
     - 8.2 [REST API 设计规范](document/SoftwareDesign/APIdesign.md)
     - 8.3 [架构设计、详细设计（BCE方法）到应用程序框架映射指南](document/SoftwareDesign/架构设计、详细设计（BCE方法）到应用程序框架映射指南.md)
@@ -36,7 +37,7 @@ Document about earn spare money
 
 ---
 - X1 meeting-records
-    
+  
     - inception meeting (yy/mm/dd)
 - X2 KANBAN
 - X3 auditing-records
