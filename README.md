@@ -1,7 +1,7 @@
 # 文档
 Document about earn spare money
 
-1. [About（项目概况）]()
+1. [About（项目概况）](document/About.md)
 2. [Team profile（团队组建与分工）](document/TeamProfile.md)
 3. [Investigation（项目前期调研/竞品分析）]()
 4. [Vision（项目愿景）]()
@@ -19,7 +19,6 @@ Document about earn spare money
         - [移动端UI设计](document/SoftwareDesign/UIdesignMobile.md)
     - 7.2 [Database design（数据库设计）](pics/SD/ER.png)
     - 7.3 [Interface API design（接口 API 设计）](document/SoftwareDesign/APIdesign.md)
-        - [API说明书]()
     - 7.4 [Architecture design（架构设计）](document/SoftwareDesign/架构设计.md)
     - 7.5 [Module design（模块设计）](pics/SD/ModuleDesign.png)
     - 7.6 [技术选型及理由](document/SoftwareDesign/技术选型及理由.md)
