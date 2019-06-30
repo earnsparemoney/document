@@ -19,7 +19,6 @@ v1.6|2019.6.27|完成架构设计|钟文谦
     - [移动端UI设计](UIdesignMobile.md)
 2. [Database design（数据库设计）](../../pics/SD/ER.png)
 3. [Interface API design（接口 API 设计）](APIdesign.md)
-    - [API说明书]()
 4. [Architecture design（架构设计）](架构设计.md)
 5. [Module design（模块设计）](../../pics/SD/ModuleDesign.png)
 6. [技术选型及理由](技术选型及理由.md)
