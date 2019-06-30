@@ -21,8 +21,8 @@
 
 昵称|分工内容	|个人宣言
 |-|-|-|
-|zhongwq|前端Coding，架构设计与部分后端Coding|Lakers championship!|
-|Limsanity|前端技术选型，架构设计与部分功能的实现|让体验变得更好|
-|zhujunkai|后端技术选型与Coding|Just do it
-|zzt|后端coding， 架构设计和数据模型设计|合理的架构和设计事半功倍|
+zhongwq|前端Coding，架构设计与部分后端Coding|Lakers championship!
+Limsanity|前端技术选型，架构设计与部分功能的实现|让体验变得更好
+zhujunkai|后端技术选型与Coding|Just do it
+zzt|后端coding， 架构设计和数据模型设计|合理的架构和设计事半功倍
 我恒|项目的需求分析、功能模块设计、文档管理与相关的用例测试|Royal Never Giveup
