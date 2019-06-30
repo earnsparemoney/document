@@ -24,7 +24,7 @@
 - [需求规格说明书](SRS.md)
 - [软件设计说明书](SoftwareDesign/SD.md)
 - [部署说明](部署文档.md)
-- [产品演示视频]()
+- [产品演示视频](http://www.iqiyi.com/w_19s8ul00bp.html)
 
 ---
 ## 3、敏捷开发迭代管理与大事纪
