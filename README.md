@@ -31,8 +31,7 @@ Document about earn spare money
     - 8.3 [架构设计、详细设计（BCE方法）到应用程序框架映射指南](document/SoftwareDesign/架构设计、详细设计（BCE方法）到应用程序框架映射指南.md)
     - 8.4 [部署说明](document/部署文档.md)
 9. [成品展示]()
-    - 9.1 XX短视频
-    - 9.2 XX短视频
+    - 9.1 [短视频](http://www.iqiyi.com/w_19s8ul00bp.html)
 
 ---
 - X1 meeting-records
